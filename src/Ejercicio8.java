@@ -11,6 +11,7 @@ public class Ejercicio8 {
         Scanner lectura = new Scanner(System.in);
         System.out.println("Ingrese una palabra: ");
         palabra = lectura.nextLine();
+        lectura.close();
         
         for (int i = 0; i <= 20; i++){
             System.out.printf("%s", palabra);
